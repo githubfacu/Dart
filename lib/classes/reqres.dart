@@ -4,9 +4,9 @@
 
 import 'dart:convert';
 
-import 'package:paquetes/classes/meta.dart';
-import 'package:paquetes/classes/person.dart';
-import 'package:paquetes/classes/support.dart';
+import 'meta.dart';
+import 'person.dart';
+import 'support.dart';
 
 ReqRes reqResFromJson(String str) => ReqRes.fromJson(json.decode(str));
 

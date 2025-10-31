@@ -4,11 +4,11 @@
 
 import 'dart:convert';
 
-import 'package:paquetes/classes/currency.dart';
-import 'package:paquetes/classes/flags.dart';
-import 'package:paquetes/classes/language.dart';
-import 'package:paquetes/classes/regionalBlock.dart';
-import 'package:paquetes/classes/translations.dart';
+import 'currency.dart';
+import 'flags.dart';
+import 'language.dart';
+import 'regionalBlock.dart';
+import 'translations.dart';
 
 Country countryFromJson(String str) => Country.fromJson(json.decode(str));
 
